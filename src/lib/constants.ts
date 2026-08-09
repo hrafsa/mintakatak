@@ -2,7 +2,10 @@ export const SITE_CONFIG = {
   name: 'Minta Katak',
   tagline: 'Jasa War Tiket Konser & Event',
   description: 'Minta Katak bantu ngejar tiket konser dan event favoritmu dengan proses yang simpel dan transparan.',
+  url: 'https://mintakatak.my.id',
   whatsappUrl: 'https://wa.me/6281234567890?text=Halo%20Minta%20Katak,%20mau%20tanya%20jasa%20war%20tiket%20dong!',
+  instagramUrl: 'https://www.instagram.com/mintakatak',
+  twitterUrl: 'https://x.com/mintakatak',
 };
 
 export const NAV_LINKS = [
@@ -99,59 +102,20 @@ export const SOCIAL_PROOF_DATA = {
 
 export const FAQ_DATA = [
   {
-    question: 'Bagaimana sistem pembayaran di Minta Katak?',
-    answer: 'Sistem utama kami adalah Payment After Secured. Kamu hanya perlu membayar biaya jasa setelah tiket berhasil kami amankan.',
+    question: 'Apakah biaya war harus dibayar di awal?',
+    answer: 'Tidak. Minta Katak mengusung sistem Payment After Secured. Kamu hanya membayar biaya jasa war jika kami berhasil mengamankan tiket sesuai pesananmu.',
   },
   {
-    question: 'Apakah data pribadi saya aman saat menggunakan jasa war?',
-    answer: 'Sangat aman. Data pribadi (KTP/Nama/Email) hanya digunakan untuk kepentingan pengisian form pembelian tiket di situs resmi promotor.',
+    question: 'Bagaimana keamanan data pribadi saya?',
+    answer: 'Keamanan data pelanggan adalah prioritas utama. Data kamu hanya digunakan secara resmi untuk keperluan pengisian identitas tiket dan tidak akan pernah dibagikan ke pihak manapun.',
   },
   {
-    question: 'Bagaimana jika tiket yang diincar tidak berhasil didapatkan?',
-    answer: 'Jika tiket tidak berhasil didapatkan (war slot penuh/sold out), kamu tidak dikenakan biaya jasa war.',
+    question: 'Bisa minta war untuk konser apa saja?',
+    answer: 'Kami melayani war tiket untuk hampir seluruh konser musik lokal maupun internasional, fan meeting K-Pop, festival budaya, hingga event olahraga di Indonesia.',
   },
   {
-    question: 'Metode pembayaran apa saja yang bisa digunakan?',
-    answer: 'Pembayaran biaya jasa dapat dilakukan melalui Transfer Bank (BCA/Mandiri) serta e-Wallet (QRIS/Gopay/OVO).',
-  },
-  {
-    question: 'Apakah saya bisa membayar tiketnya sendiri (Self Payment)?',
-    answer: 'Bisa! Untuk beberapa platform/promotor yang menyediakan direct payment link, kamu bisa langsung membayar tiketnya sendiri.',
-  },
-  {
-    question: 'Kapan waktu terbaik untuk booking slot war di Minta Katak?',
-    answer: 'Makin cepat makin baik! Kami membatasi kuota slot per event untuk menjaga performa war tetap maksimal dan fokus.',
-  },
-];
-
-export const TESTIMONIAL_DATA = [
-  {
-    id: 1,
-    artist: 'Coldplay Music of the Spheres World Tour',
-    category: 'CAT 1 - 2 Tickets',
-    text: 'Sumpah gercep banget Minta Katak! Begitu masuk antrean langsung dapet tiket CAT 1. Makasih banget bikin impian nonton Coldplay terwujud!',
-    author: 'Siska P. — Jakarta',
-  },
-  {
-    id: 2,
-    artist: 'Bruno Mars Live in Jakarta',
-    category: 'VIP Festival - 1 Ticket',
-    text: 'Awalnya ragu war jastip, tapi Minta Katak beneran ramah dan jujur. Payment diawal zero, bayar pas udah ada e-voucher. Top!',
-    author: 'Rian A. — Bandung',
-  },
-  {
-    id: 3,
-    artist: 'IU H.E.R. World Tour Concert',
-    category: 'CAT 2A - 2 Tickets',
-    text: 'War IU kemaren ketat banget tapi Katak bisa amani 2 tiket berdekatan. Komunikasi pas war juga update terus. Recommended!',
-    author: 'Dian K. — Surabaya',
-  },
-  {
-    id: 4,
-    artist: 'SEVENTEEN RIGHT HERE World Tour',
-    category: 'VIP Soundcheck - 1 Ticket',
-    text: 'Gokil Soundcheck SVT dapet! Berkat Minta Katak ga perlu pusing refresh browser berjam-jam. Jaswar paling santuy!',
-    author: 'Fira N. — Tangerang',
+    question: 'Apakah bisa pakai metode bayar langsung (self payment)?',
+    answer: 'Bisa! Kami menyediakan opsi self payment di mana kamu akan langsung menerima link atau instruksi pembayaran resmi dari platform penjual tiket.',
   },
 ];
 
