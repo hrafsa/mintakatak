@@ -16,13 +16,13 @@ const TESTIMONIAL_POSTS = [
     text: 'temen-temen banyak yg nanya "kok bisa secured vip?" "ih keren banget" "tau gitu aku pake jaswar aja" ini jastip/jaswar UMKM trusted!\n\naku jaswar di @mintakatak awalnya sempet nanya2 secured apa engga, tapi gak ada respon udah setengah jam karena mereka fokus war—',
   },
   {
-    id: '2084413998695686239',
-    name: 'sa 🌹',
-    handle: '@tyomirose',
-    date: '3 Agt 2026',
-    url: 'https://x.com/tyomirose/status/2084413998695686239',
-    tag: 'Secured 12.00',
-    text: 'secured di jam 12.00😭 gacor bgt @mintakatak thank you so much kakk💙',
+    id: '2068282914304118860',
+    name: 'kyle',
+    handle: '@kyye939',
+    date: '20 Jun 2026',
+    url: 'https://x.com/kyye939/status/2068282914304118860',
+    tag: 'Tiket Bangtan Secured',
+    text: 'SHOUT OUT TO @mintakatak 💚💚💚🐸 udah bantu secured tiket bangtan!!!\n\nGila sih jam 12.00 email udah masuk, terus dikonfirmasi chat kaget bngettt meanwhile aku pantengin di laptop aku msih antrian 200k😭😭\n\nTHANK YOU SO MUCH ❤️❤️❤️ Gacor bangettt ini jastipp bakal jadi favoritt❤️',
   },
   {
     id: '2084284570518827505',
@@ -78,7 +78,7 @@ export default function Testimonials() {
         />
       </div>
 
-      {/* Floating Decorative Elements (Desktop/Tablet only to prevent mobile badge overlap) */}
+      {/* Floating Decorative Elements */}
       <div className="hidden sm:block absolute top-16 left-6 md:left-14 w-16 md:w-24 pointer-events-none opacity-80 z-0">
         <Image
           src="/assets/brand/decorations/love.svg"
@@ -168,7 +168,7 @@ export default function Testimonials() {
                   <div className="flex items-center gap-3">
                     {/* Avatar Initials Badge */}
                     <div className="w-11 h-11 rounded-full bg-[#376E57] text-[#FAF7F2] font-fredoka font-bold flex items-center justify-center text-lg shadow-sm flex-shrink-0">
-                      {item.name.charAt(0)}
+                      {item.name.charAt(0).toUpperCase()}
                     </div>
                     <div className="space-y-0.5">
                       <div className="flex items-center gap-1.5">
