@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-fredoka: 'Fredoka', cursive, sans-serif;
+    --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-plus-jakarta);
+    color: #1A2921;
+    background-color: #FAF7F2;
+  }
+
+  body {
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Typography Classes matching AGENTS.md specs */
+.font-display {
+  font-family: var(--font-fredoka);
+}
+
+.hero-title {
+  font-family: var(--font-fredoka);
+  font-size: clamp(3rem, 10vw, 7rem);
+  line-height: 0.93;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: clamp(4rem, 7vw, 7.5rem);
+    line-height: 0.92;
+    letter-spacing: -0.045em;
+  }
+}
+
+.section-title {
+  font-family: var(--font-fredoka);
+  font-size: clamp(2.3rem, 5vw, 4.75rem);
+  line-height: 0.96;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+}
+
+.body-large {
+  font-size: clamp(1.125rem, 1.5vw, 1.375rem);
+  line-height: 1.55;
+  max-width: 55ch;
+}
+
+.body-regular {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+/* Custom Selection & Scrollbar */
+::selection {
+  background-color: #C5E0CF;
+  color: #1A2921;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #B4D5C2;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8DBF9E;
+}
