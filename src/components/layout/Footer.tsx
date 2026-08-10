@@ -27,8 +27,8 @@ export default function Footer() {
               {SITE_CONFIG.description}
             </p>
 
-            {/* Social Media Links */}
-            <div className="pt-2 flex items-center gap-4">
+            {/* Social Media Links with Flex Wrap for Responsive Mobile View */}
+            <div className="pt-2 flex flex-wrap items-center gap-3 md:gap-4">
               {/* Instagram */}
               <a
                 href={SITE_CONFIG.instagramUrl}
