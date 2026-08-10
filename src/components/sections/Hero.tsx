@@ -127,16 +127,16 @@ export default function Hero() {
               </span>
             </motion.div>
 
-            {/* Main Headline H1 with Perfectly Positioned Underline */}
+            {/* Main Headline H1 with Full Underline Covered Across "bikin kamu ikutan panik." */}
             <motion.h1
               variants={fadeUp}
               className="hero-title text-[#1A2921] max-w-[20ch] text-4xl sm:text-5xl lg:text-[4.25rem] leading-[1.04] tracking-tight font-bold font-fredoka"
             >
-              War tiket nggak harus bikin kamu{' '}
-              <span className="text-[#376E57] relative inline-block whitespace-nowrap">
-                ikutan panik.
+              War tiket nggak harus <br className="inline sm:hidden" />
+              <span className="text-[#376E57] relative inline-block">
+                bikin kamu ikutan panik.
                 <svg
-                  className="absolute -bottom-1 left-0 w-full h-2.5 sm:h-3 text-[#C5E0CF]"
+                  className="absolute -bottom-1 sm:-bottom-1.5 left-0 w-full h-2.5 sm:h-3 text-[#C5E0CF]"
                   viewBox="0 0 100 12"
                   preserveAspectRatio="none"
                 >
