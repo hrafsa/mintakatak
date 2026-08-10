@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { SOCIAL_PROOF_DATA } from '@/lib/constants';
 import { fadeUp, staggerContainer } from '@/lib/motion';
+import AnimatedCounter from '@/components/ui/AnimatedCounter';
 
 export default function SocialProof() {
   return (
@@ -59,10 +60,10 @@ export default function SocialProof() {
               </span>
             </motion.div>
 
-            {/* Dominant Stat Counter */}
+            {/* Dominant Stat Counter with Smooth Framer Motion Increment */}
             <motion.div variants={fadeUp} className="space-y-2">
               <h2 className="text-7xl sm:text-8xl lg:text-[9rem] font-bold font-fredoka leading-none tracking-tight text-[#FAF7F2]">
-                {SOCIAL_PROOF_DATA.statNumber}
+                <AnimatedCounter to={400} suffix="+" duration={2.5} />
               </h2>
               <p className="text-3xl sm:text-4xl lg:text-5xl font-bold font-fredoka text-[#C5E0CF]">
                 {SOCIAL_PROOF_DATA.statLabel}
@@ -77,7 +78,7 @@ export default function SocialProof() {
             </motion.p>
           </div>
 
-          {/* Right Column: Celebration Mascot (Perfect Balanced Bounds) */}
+          {/* Right Column: Celebration Mascot */}
           <motion.div
             variants={fadeUp}
             className="lg:col-span-5 flex justify-center lg:justify-end items-center relative"
@@ -89,6 +90,7 @@ export default function SocialProof() {
                 width={700}
                 height={700}
                 unoptimized
+                style={{ width: 'auto', height: 'auto' }}
                 className="w-full h-auto object-contain drop-shadow-2xl"
               />
             </div>
@@ -100,7 +102,8 @@ export default function SocialProof() {
                 width={160}
                 height={160}
                 unoptimized
-                className="w-full h-auto opacity-80"
+                style={{ width: 'auto', height: 'auto' }}
+                className="w-full h-auto opacity-90 animate-pulse"
               />
             </div>
           </motion.div>

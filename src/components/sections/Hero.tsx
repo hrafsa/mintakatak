@@ -5,6 +5,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 import { HERO_DATA, SITE_CONFIG } from '@/lib/constants';
 import { fadeUp, staggerContainer, mascotFloat, decorationPulse } from '@/lib/motion';
 import { CheckCircle2 } from 'lucide-react';
+import AnimatedCounter from '@/components/ui/AnimatedCounter';
 
 export default function Hero() {
   const shouldReduceMotion = useReducedMotion();
@@ -176,17 +177,21 @@ export default function Hero() {
               </a>
             </motion.div>
 
-            {/* Supporting Proof Badges */}
+            {/* Supporting Proof Badges with Animated Counter */}
             <motion.div
               variants={fadeUp}
               className="flex flex-wrap items-center gap-6 pt-4 border-t border-[#E3EDE6] w-full relative"
             >
-              {HERO_DATA.proof.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2 text-sm md:text-base font-bold text-[#1A2921]">
-                  <CheckCircle2 size={18} className="text-[#376E57]" />
-                  <span>{item}</span>
-                </div>
-              ))}
+              <div className="flex items-center gap-2 text-sm md:text-base font-bold text-[#1A2921]">
+                <CheckCircle2 size={18} className="text-[#376E57]" />
+                <span>
+                  <AnimatedCounter to={400} suffix="+" duration={2.2} /> tickets secured
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-sm md:text-base font-bold text-[#1A2921]">
+                <CheckCircle2 size={18} className="text-[#376E57]" />
+                <span>Payment after secured</span>
+              </div>
             </motion.div>
           </div>
 
