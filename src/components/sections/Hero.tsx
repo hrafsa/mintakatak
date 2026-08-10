@@ -127,30 +127,14 @@ export default function Hero() {
               </span>
             </motion.div>
 
-            {/* Main Headline H1 with Perfectly Positioned Underline Across Mobile & Desktop */}
+            {/* Main Headline H1 with Clean Multi-line CSS Underline */}
             <motion.h1
               variants={fadeUp}
-              className="hero-title text-[#1A2921] max-w-[20ch] text-3.5xl sm:text-5xl lg:text-[4.25rem] leading-[1.06] tracking-tight font-bold font-fredoka"
+              className="hero-title text-[#1A2921] max-w-[20ch] text-4xl sm:text-5xl lg:text-[4.25rem] leading-[1.08] tracking-tight font-bold font-fredoka"
             >
               War tiket nggak harus{' '}
-              <span className="text-[#376E57] sm:relative sm:inline-block">
-                bikin kamu{' '}
-                <span className="relative inline-block sm:static">
-                  ikutan panik.
-                  <svg
-                    className="absolute -bottom-1 sm:-bottom-1.5 left-0 w-full h-2.5 sm:h-3 text-[#C5E0CF]"
-                    viewBox="0 0 100 12"
-                    preserveAspectRatio="none"
-                  >
-                    <path
-                      d="M0,5 Q50,12 100,5"
-                      stroke="currentColor"
-                      strokeWidth="6"
-                      fill="none"
-                      strokeLinecap="round"
-                    />
-                  </svg>
-                </span>
+              <span className="text-[#376E57] underline decoration-[#C5E0CF] decoration-4 sm:decoration-6 underline-offset-4 sm:underline-offset-8">
+                bikin kamu ikutan panik.
               </span>
             </motion.h1>
 
