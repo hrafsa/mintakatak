@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   tagline: 'Jasa War Tiket Konser & Event',
   description: 'Minta Katak bantu ngejar tiket konser dan event favoritmu dengan proses yang simpel dan transparan.',
   url: 'https://mintakatak.my.id',
-  whatsappUrl: 'https://wa.me/6281234567890?text=Halo%20Minta%20Katak,%20mau%20tanya%20jasa%20war%20tiket%20dong!',
+  whatsappUrl: 'https://wa.me/6281931489496?text=Halo%20Minta%20Katak,%20mau%20tanya%20jasa%20war%20tiket%20dong!',
   instagramUrl: 'https://www.instagram.com/mintakatak',
   twitterUrl: 'https://x.com/mintakatak',
 };
