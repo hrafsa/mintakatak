@@ -27,7 +27,7 @@ export default function Footer() {
               {SITE_CONFIG.description}
             </p>
 
-            {/* Social Media Links with Flex Wrap for Responsive Mobile View */}
+            {/* Social Media Links with Uniform Brand Colors */}
             <div className="pt-2 flex flex-wrap items-center gap-3 md:gap-4">
               {/* Instagram */}
               <a
@@ -61,7 +61,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp Minta Katak"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#376E57] text-[#FAF7F2] font-fredoka font-semibold text-sm hover:bg-[#2C5846] transition-all hover:scale-105"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#2C5846] text-[#FAF7F2] font-fredoka font-semibold text-sm hover:bg-[#376E57] transition-all hover:scale-105"
               >
                 <MessageCircle size={18} />
                 <span>WhatsApp</span>
