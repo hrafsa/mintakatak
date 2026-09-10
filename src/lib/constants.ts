@@ -95,7 +95,7 @@ export const BENEFIT_DATA = {
 };
 
 export const SOCIAL_PROOF_DATA = {
-  statNumber: '400+',
+  statNumber: '1000+',
   statLabel: 'tickets secured',
   subtext: 'dan masih terus bantu lebih banyak orang ketemu artis favoritnya.',
 };

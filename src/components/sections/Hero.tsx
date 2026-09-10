@@ -172,7 +172,7 @@ export default function Hero() {
               <div className="flex items-center gap-2 text-sm md:text-base font-bold text-[#1A2921]">
                 <CheckCircle2 size={18} className="text-[#376E57]" />
                 <span>
-                  <AnimatedCounter to={400} suffix="+" duration={2.2} /> tickets secured
+                  <AnimatedCounter to={1000} suffix="+" duration={2.2} /> tickets secured
                 </span>
               </div>
               <div className="flex items-center gap-2 text-sm md:text-base font-bold text-[#1A2921]">

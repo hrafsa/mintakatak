@@ -14,7 +14,7 @@ interface CounterProps {
 
 export default function AnimatedCounter({
   from = 0,
-  to = 400,
+  to = 1000,
   suffix = '+',
   prefix = '',
   duration = 2.2,

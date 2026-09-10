@@ -63,7 +63,7 @@ export default function SocialProof() {
             {/* Dominant Stat Counter with Smooth Framer Motion Increment */}
             <motion.div variants={fadeUp} className="space-y-2">
               <h2 className="text-7xl sm:text-8xl lg:text-[9rem] font-bold font-fredoka leading-none tracking-tight text-[#FAF7F2]">
-                <AnimatedCounter to={400} suffix="+" duration={2.5} />
+                <AnimatedCounter to={1000} suffix="+" duration={2.5} />
               </h2>
               <p className="text-3xl sm:text-4xl lg:text-5xl font-bold font-fredoka text-[#C5E0CF]">
                 {SOCIAL_PROOF_DATA.statLabel}
