@@ -23,7 +23,7 @@ export const HERO_DATA = {
   primaryCta: 'Minta Katak War',
   secondaryCta: 'Lihat Cara Kerja',
   proof: [
-    '400+ tickets secured',
+    '1000+ tickets secured',
     'Payment after secured',
   ],
 };
