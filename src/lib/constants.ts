@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   alternateName: 'Mintakatak',
   tagline: 'Jasa War Tiket Konser & Event',
   description: 'Minta Katak (Mintakatak) adalah jasa war tiket konser dan event di Indonesia. Bantu ngejar tiket favoritmu dengan proses yang simpel dan transparan.',
-  url: 'https://mintakatak.my.id',
+  url: 'https://www.mintakatak.my.id',
   whatsappUrl: 'https://wa.me/6285888102143?text=Halo%20Minta%20Katak,%20mau%20tanya%20jasa%20war%20tiket%20dong!',
   instagramUrl: 'https://www.instagram.com/mintakatak',
   twitterUrl: 'https://x.com/mintakatak',

@@ -4,6 +4,11 @@ Project menyediakan identitas `Minta Katak` / `Mintakatak`, structured data
 `WebSite` dan `Organization`, canonical homepage, `/robots.txt`, dan `/sitemap.xml`.
 Perubahan baru tersedia di domain setelah deployment production berhasil.
 
+Domain tanpa `www` diarahkan oleh Vercel ke `https://www.mintakatak.my.id/`.
+Canonical, sitemap, dan structured data memakai URL production tersebut.
+Meta tag Google sudah ditambahkan untuk verifikasi properti URL prefix di
+akun Google pemilik situs. Pertahankan tag agar status verifikasi tetap aktif.
+
 ## Google Search Console
 
 1. Login di https://search.google.com/search-console menggunakan akun pemilik situs.
@@ -15,15 +20,15 @@ Perubahan baru tersedia di domain setelah deployment production berhasil.
 4. Kembali ke Search Console dan klik **Verify**. Jika record belum terbaca,
    tunggu propagasi DNS lalu coba lagi. Pertahankan TXT setelah berhasil.
 5. Setelah deployment, buka **Sitemaps**, kirim
-   `https://mintakatak.my.id/sitemap.xml`, dan periksa statusnya.
-6. Buka **URL Inspection**, masukkan `https://mintakatak.my.id/`.
+   `https://www.mintakatak.my.id/sitemap.xml`, dan periksa statusnya.
+6. Buka **URL Inspection**, masukkan `https://www.mintakatak.my.id/`.
    Periksa status indeks dan canonical Google, gunakan **Test Live URL**, lalu
    **Request Indexing** jika homepage dapat diakses dan diindeks.
 7. Pada laporan **Performance**, pantau query `mintakatak` dan `minta katak`:
    impressions, clicks, dan average position. Gunakan data ini untuk mengukur
    perubahan; posisi satu pencarian manual dapat berbeda.
 
-Jika memilih properti **URL prefix**, gunakan `https://mintakatak.my.id/`
+Jika memilih properti **URL prefix**, gunakan `https://www.mintakatak.my.id/`
 dan salah satu metode verifikasi yang ditawarkan Google. Jika menggunakan
 HTML meta tag, token harus berasal dari akun Search Console pemilik situs.
 

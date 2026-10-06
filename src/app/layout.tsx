@@ -18,11 +18,14 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mintakatak.my.id'),
+  metadataBase: new URL(SITE_CONFIG.url),
   title: 'Minta Katak — Jasa War Tiket Konser & Event Indonesia',
   description: `${SITE_CONFIG.description} Payment after secured!`,
   keywords: ['jasa war tiket', 'war tiket konser', 'minta katak', 'jastip tiket', 'tiket konser indonesia', 'war tiket kpop', 'mintakatak.my.id'],
   authors: [{ name: 'Minta Katak' }],
+  verification: {
+    google: 'GJeW3_xKmBeK2JVd_Gw30jtfhEP1YNv1_Dmv8_DfrHI',
+  },
   icons: {
     icon: '/assets/brand/logo/logo-head.svg',
     shortcut: '/assets/brand/logo/logo-head.svg',
@@ -31,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Minta Katak — Jasa War Tiket Konser & Event Indonesia',
     description: `${SITE_CONFIG.description} Payment after secured!`,
-    url: 'https://mintakatak.my.id',
+    url: SITE_CONFIG.url,
     siteName: 'Minta Katak',
     locale: 'id_ID',
     type: 'website',
@@ -44,7 +47,7 @@ export const metadata: Metadata = {
     creator: '@mintakatak',
   },
   alternates: {
-    canonical: 'https://mintakatak.my.id',
+    canonical: `${SITE_CONFIG.url}/`,
   },
 };
 
