@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Fredoka, Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
+import { SITE_CONFIG } from '@/lib/constants';
 
 const fredoka = Fredoka({
   subsets: ['latin'],
@@ -19,7 +20,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://mintakatak.my.id'),
   title: 'Minta Katak — Jasa War Tiket Konser & Event Indonesia',
-  description: 'Minta Katak bantu ngejar tiket konser dan event favoritmu dengan proses yang simpel dan transparan. Payment after secured!',
+  description: `${SITE_CONFIG.description} Payment after secured!`,
   keywords: ['jasa war tiket', 'war tiket konser', 'minta katak', 'jastip tiket', 'tiket konser indonesia', 'war tiket kpop', 'mintakatak.my.id'],
   authors: [{ name: 'Minta Katak' }],
   icons: {
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Minta Katak — Jasa War Tiket Konser & Event Indonesia',
-    description: 'Bantu ngejar tiket konser dan event favoritmu dengan proses yang simpel dan transparan. Payment after secured!',
+    description: `${SITE_CONFIG.description} Payment after secured!`,
     url: 'https://mintakatak.my.id',
     siteName: 'Minta Katak',
     locale: 'id_ID',
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Minta Katak — Jasa War Tiket Konser & Event',
-    description: 'Bantu ngejar tiket konser dan event favoritmu dengan proses yang simpel dan transparan. Payment after secured!',
+    description: `${SITE_CONFIG.description} Payment after secured!`,
     site: '@mintakatak',
     creator: '@mintakatak',
   },

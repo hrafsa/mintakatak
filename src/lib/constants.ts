@@ -1,7 +1,8 @@
 export const SITE_CONFIG = {
   name: 'Minta Katak',
+  alternateName: 'Mintakatak',
   tagline: 'Jasa War Tiket Konser & Event',
-  description: 'Minta Katak bantu ngejar tiket konser dan event favoritmu dengan proses yang simpel dan transparan.',
+  description: 'Minta Katak (Mintakatak) adalah jasa war tiket konser dan event di Indonesia. Bantu ngejar tiket favoritmu dengan proses yang simpel dan transparan.',
   url: 'https://mintakatak.my.id',
   whatsappUrl: 'https://wa.me/6285888102143?text=Halo%20Minta%20Katak,%20mau%20tanya%20jasa%20war%20tiket%20dong!',
   instagramUrl: 'https://www.instagram.com/mintakatak',
@@ -19,7 +20,7 @@ export const NAV_LINKS = [
 export const HERO_DATA = {
   eyebrow: 'JASA WAR TIKET INDONESIA',
   headline: 'War tiket nggak harus bikin kamu ikutan panik.',
-  body: 'Minta Katak bantu ngejar tiket konser dan event favoritmu dengan proses yang simpel dan transparan.',
+  body: 'Minta Katak (Mintakatak) adalah jasa war tiket konser dan event di Indonesia. Bantu ngejar tiket favoritmu dengan proses yang simpel dan transparan.',
   primaryCta: 'Minta Katak War',
   secondaryCta: 'Lihat Cara Kerja',
   proof: [
